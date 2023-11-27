@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: msg-grid-auth-configmap
 data:
-  PORT: "8081"
+  PORT: "8080"
     
