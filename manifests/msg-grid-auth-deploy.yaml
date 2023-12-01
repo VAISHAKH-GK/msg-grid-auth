@@ -23,5 +23,3 @@ spec:
           envFrom:
             - configMapRef:
                 name: msg-grid-auth-configmap
-            # -  secretRef:
-            #     name: msg-grid-auth-secret

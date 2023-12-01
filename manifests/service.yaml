@@ -5,8 +5,8 @@ metadata:
 spec:
   selector:
     app: msg-grid-auth
-  type: NodePort
+  type: ClusterIP
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 8000
+      targetPort: 9000
       protocol: TCP
