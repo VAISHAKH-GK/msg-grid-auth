@@ -1,0 +1,88 @@
+#+TITLE: MSG Grid Auth
+#+AUTHOR: Vaishakh GK
+#+DESCRIPTION: Authentication service for Microservice chat application
+#+STARTUP: overview 
+
+The Msg Grid Auth Service is responsible for managing user authentication and authorization within the msg-grid microservice chat application. It utilizes go,fiber,jwt to securely handle user authentication and token-based authorization.
+
+* Table of Contents :toc:
+- [[#features][Features]]
+- [[#technologies-used][Technologies Used]]
+- [[#usage][Usage]]
+- [[#contributing][Contributing]]
+- [[#license][License]]
+- [[#contact][Contact]]
+
+* Features
+- User registration and account creation
+- User login and authentication using JWT (JSON Web Tokens)
+- Password hashing and secure storage
+- Authorization middleware for protected routes
+- Token-based session management and expiration
+
+* Technologies Used
+- Go
+- Fiber
+- Rabbit MQ
+- Mongo DB
+- JWT
+
+* Usage
+Once the authentication service is running locally, it provides endpoints for user registration, login, and token generation.
+Use these endpoints to authenticate users and manage sessions for other services within the msg-grid application.
+
+* Contributing
+Contributions are welcome! To contribute to this project:
+***** 1. Fork the project
+***** 2. Clone the fork
+#+begin_src bash
+git clone https://github.com/<username>/msg-grid-auth.git
+#+end_src
+***** 3. Add Upstream
+#+begin_src bash
+git remote add upstream https://github.com/VAISHAKH-GK/msg-grid-auth
+#+end_src
+***** 4. Craete a new branch
+#+begin_src bash
+git checkout -b feature
+#+end_src
+
+***** 5.  Make your changse
+***** 6. Commit your changes
+#+begin_src bash
+git commit -am "Add new feature"
+#+end_src
+***** 7. Update main
+#+begin_src bash
+git checkout main
+git pull upstream main
+#+end_src
+***** 8. Rebase to main
+#+begin_src bash
+git checkout feature
+git rebase main
+#+end_src
+***** 9. Push to the branch
+#+begin_src bash
+git push origin feature
+#+end_src
+***** 10. Create new Pull Request
+
+* License
+[[file:LICENSE][The GPLv3 License (GPLv3)]]
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see [[https://www.gnu.org/licenses/gpl-3.0][GPLv3]].
+
+* Contact
+Email :[[mailto:vaishakhgk2006@gmail.com][ vaishakhgk2006@gmail.com]] 
+Github:[[https://github.com/VAISHAKH-GK/][ VAISHAKH-GK]] 

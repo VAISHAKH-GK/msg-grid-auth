@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: msg-grid-auth-configmap
-data:
-  PORT: "9000"
-    
